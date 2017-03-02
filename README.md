@@ -7,3 +7,7 @@
 `develop` represents the future state of the application. It provides a common point for QA to run regression, but should never be referenced as a stable branch.
 
 ## Development on a feature branch:
+Start a new feature branch from develop
+Make commits on the feature branch
+When work is ready for review, rebase your branch onto `develop` and create a pull request in github against `develop`
+When review is complete and ready for merge to develop, merge your work into develop via a `--no-ff` merge
